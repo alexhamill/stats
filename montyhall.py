@@ -1,9 +1,10 @@
+import random
+
 sportscar = 0
 goat = 0
 repeats = 0
 
 while repeats < 100000000:
-    import random
 
     doors = ['goat', 'goat', 'sportscar']
     random.shuffle(doors)
